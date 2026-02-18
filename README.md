@@ -1,5 +1,5 @@
 # arduino
 Degli script per arduino IDE 
-Questa repo è in sviluppo. Dei cambiamenti ai contenuti potrebbero accadere.
+Questa repository è in sviluppo. Dei cambiamenti ai contenuti potrebbero accadere nel tempo.
 
-# Stato: IN SVILUPPO
+## Stato: IN SVILUPPO
