@@ -1,25 +1,28 @@
+// Rosso PIN 4
+// Giallo PIN 3
+// Verde PIN 2
 void setup ()
 {
-pinMode(2, OUTPUT);// green
-pinMode(3,   OUTPUT);// yellow
-pinMode(4, OUTPUT);// red
+pinMode(2, OUTPUT);// verde
+pinMode(3,   OUTPUT);// giallo
+pinMode(4, OUTPUT);// rosso
 }
 void loop ()
 {
 
   
-digitalWrite(4,HIGH);
+digitalWrite(4,HIGH); // ROSSO ON
 delay(7000);
-digitalWrite(4,LOW);
+digitalWrite(4,LOW); // ROSSO OFF
 delay(100);
 
-digitalWrite(3,HIGH);
+digitalWrite(3,HIGH); //GIALLO ON
 delay(3000);
-digitalWrite(3,LOW);
+digitalWrite(3,LOW); //GIALLO OFF
 delay(100);
 
-digitalWrite(2,HIGH);
+digitalWrite(2,HIGH); //VERDE ON
 delay(7000);
-digitalWrite(2,LOW);
+digitalWrite(2,LOW); //VERDE OFF
 delay(100);
 }
